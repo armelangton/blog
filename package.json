@@ -1,0 +1,24 @@
+{
+  "name": "workoutlog_server",
+  "version": "1.0.0",
+  "description": "We'd like you to get some practice and have another look at building a server. In order to review what we have studied in the previous modules, we'd like you to create a new Express Server. In your folder, make a folder called . Inside this folder, you will create the new server. Please refer to the Node Server - Server Setup module for a refresher on how to set up a server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armelangton/blog.git"
+  },
+  "author": "Amy Melangton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armelangton/blog/issues"
+  },
+  "homepage": "https://github.com/armelangton/blog#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
