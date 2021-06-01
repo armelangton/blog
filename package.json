@@ -1,7 +1,7 @@
 {
-  "name": "workoutlog_server",
+  "name": "workout-log",
   "version": "1.0.0",
-  "description": "We'd like you to get some practice and have another look at building a server. In order to review what we have studied in the previous modules, we'd like you to create a new Express Server. In your folder, make a folder called . Inside this folder, you will create the new server. Please refer to the Node Server - Server Setup module for a refresher on how to set up a server.",
+  "description": "Workout log server",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/armelangton/blog#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3"
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
   }
 }
